@@ -1,0 +1,15 @@
+package Pratice_Programs;
+
+class Access{
+	private int number;
+	private String name;
+	
+	
+}
+public class P162_Access_Private_Mem {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

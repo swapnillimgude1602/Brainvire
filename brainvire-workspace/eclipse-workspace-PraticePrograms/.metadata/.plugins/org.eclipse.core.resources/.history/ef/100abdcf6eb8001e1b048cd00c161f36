@@ -1,0 +1,47 @@
+package Pratice_Programs;
+
+class TreeNode {
+	int data;
+	TreeNode left;
+	TreeNode right;
+
+	public TreeNode(int data) {
+		this.data = data;
+		this.left = null;
+		this.right = null;
+	}
+}
+
+public class P156_Binary_treeTraversal {
+
+	private TreeNode root;
+
+	public P156_Binary_treeTraversal() {
+		this.root = null;
+	}
+
+	// Method to insert a value into the binary tree
+	public void insert(int value) {
+		root = insertRecursive(root, value);
+	}
+
+	private TreeNode insertRecursive(TreeNode root, int value) {
+		if (root == null) {
+			return new TreeNode(value);
+		}
+
+		if (value < root.data) {
+			root.left = insertRecursive(root.left, value);
+		} else if (value > root.data) {
+			root.right = insertRecursive(root.right, value);
+		}
+
+		return root;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package Pratice_Programs;
+
+import java.util.HashMap;
+
+public class P145_Update_Key_Value {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, Integer> myMap = new HashMap<>();
+
+        // Add some key-value pairs
+        myMap.put("A", 1);
+        myMap.put("B", 2);
+        myMap.put("C", 3);
+
+        System.out.println("Original HashMap: " + myMap);
+
+        // Update the value for key "B"
+        updateValue(myMap, "B", 20);
+
+        // Display the updated HashMap
+        System.out.println("Updated HashMap: " + myMap);
+    }
+
+    // Function to update the value for a specific key in the HashMap
+    private static void updateValue(HashMap<String, Integer> map, String key, int newValue) {
+        if (map.containsKey(key)) {
+            // Key exists, update the value
+            map.put(key, newValue);
+        } else {
+            // Key doesn't exist, add a new key-value pair
+            System.out.println("Key not found. Adding a new key-value pair.");
+            map.put(key, newValue);
+        }
+
+	}
+
+}

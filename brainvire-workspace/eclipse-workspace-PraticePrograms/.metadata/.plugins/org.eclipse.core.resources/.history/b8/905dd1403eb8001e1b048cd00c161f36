@@ -1,0 +1,19 @@
+package Pratice_Programs;
+
+public class P103_MethCall_argument_AnotherMethod {
+	public int add(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+	public void divide(int num1, int num2) {
+		int result = num1 / num2;
+		System.out.println(result); 
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		P103_MethCall_argument_AnotherMethod obj  = new P103_MethCall_argument_AnotherMethod();
+		obj.divide(obj.add(4, 3));
+	}
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=spring-framework/\/home\/swapnil_limgude\/.m2\/repository\/org\/hibernate\/orm\/hibernate-core\/6.3.1.Final\/hibernate-core-6.3.1.Final.jar=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate.orm=/=/maven.artifactId=/hibernate-core=/=/maven.version=/6.3.1.Final=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="1048609" timestamp="1696399502969"/>
+    <typeInfo handle="=demo/\/home\/swapnil_limgude\/.m2\/repository\/org\/springframework\/spring-jdbc\/6.0.12\/spring-jdbc-6.0.12.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-jdbc=/=/maven.version=/6.0.12=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.jdbc.datasource(DriverManagerDataSource.class[DriverManagerDataSource" modifiers="33" timestamp="1696425731638"/>
+</typeInfoHistroy>

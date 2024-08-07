@@ -1,0 +1,10 @@
+package JunitMockito.com.demo.ArgumentMatcher;
+
+public interface UserRepository {
+
+	public void save(User user);
+
+	public User findUserByUserId(int userId);
+
+	public User findUserByUserNameAndUserPassword(String userName, String userPassword);
+}

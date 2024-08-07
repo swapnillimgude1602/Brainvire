@@ -1,0 +1,30 @@
+package Pratice_Programs;
+
+import java.io.File;
+import java.net.URI;
+
+public class P114_RelativePath_2_AbsolutePath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		File absolutePath1 = new File("C:\\Users\\Desktop\\Programiz\\Java\\Time.java");
+	      System.out.println("Absolute Path1: " + absolutePath1);
+	      File absolutePath2 = new File("C:\\Users\\Desktop");
+	      System.out.println("Absolute Path2: " + absolutePath2);
+
+	      // convert the absolute path to URI
+	      URI path1 = absolutePath1.toURI();
+	      URI path2 = absolutePath2.toURI();
+
+	      // create a relative path from the two paths
+	      URI relativePath = path2.relativize(path1);
+
+	      // convert the URI to string
+	      String path = relativePath.getPath();
+
+	      System.out.println("Relative Path: " + path);
+
+	}
+
+}

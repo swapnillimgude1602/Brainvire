@@ -1,0 +1,11 @@
+package Pratice_Programs;
+
+import java.util.LinkedList;
+
+public class P166_AddEle_LinkedList {
+
+	public static void main(String args[]) {
+		
+		LinkedList<Integer> list = new LinkedList<Integer>();
+	}
+}

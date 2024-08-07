@@ -1,0 +1,59 @@
+package demo;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+
+
+/**
+ * Servlet implementation class ServletConfigParameters
+ */
+@WebServlet("/ServletConfigParameters")
+public class ServletConfigParameters extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public ServletConfigParameters() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html"); // set content type
+		PrintWriter out = response.getWriter(); // get print writer
+		ServletContext context = getServletContext();	//inherited from httpservlet
+		String maxcart = context.getInitParameter("max-shop-cart"); // read config parameters: initpara - returns data
+																	// in string only if no data it will return null.
+		out.println("Max Cart Size :" + maxcart);
+		
+		String rad = context.getInitParameter("radius");
+		int r = Integer.parseInt(rad);
+		int area = r*r;
+		out.println("Area of Circle is:"+area);
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

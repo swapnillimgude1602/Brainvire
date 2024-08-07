@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Car</comment>
+<entry key="Brand">BMW</entry>
+<entry key="Model">iim</entry>
+<entry key="Drive">$ wheel Drive</entry>
+<entry key="Engine">8Stroke</entry>
+</properties>

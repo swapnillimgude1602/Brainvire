@@ -1,0 +1,19 @@
+package Pratice_Programs;
+
+public class P93_String_Double {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "23";
+		String str2 = "456.6";
+
+		// convert string to double
+		// using parseDouble()
+		double num1 = Double.parseDouble(str1);
+		double num2 = Double.parseDouble(str2);
+		System.out.println(num1);
+		System.out.println(num2);
+
+	}
+
+}

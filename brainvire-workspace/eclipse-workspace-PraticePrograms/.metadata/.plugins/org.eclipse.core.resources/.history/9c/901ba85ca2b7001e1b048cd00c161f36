@@ -1,0 +1,28 @@
+package Pratice_Programs;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class P153_SortMap_keys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> hm = new HashMap<>();
+		hm.put("Swapnil", 2);
+		hm.put("Maruti", 3);
+		hm.put("Limgude", 1);
+
+//		hm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+		Map<String, Integer> tm = new TreeMap<>(hm);
+		// System.out.println(tm);
+
+//		tm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+
+		System.out.println("Sorted map:");
+		for (Map.Entry<String, Integer> entry : tm.entrySet()) {
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+	}
+
+}

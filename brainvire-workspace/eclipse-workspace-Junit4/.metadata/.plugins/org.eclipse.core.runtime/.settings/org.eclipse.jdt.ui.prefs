@@ -1,0 +1,13 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.example.Mockito.TD.Fake.BookRepository"><rhs name\="com.example.Mockito.TD.FakeTest.BookRepositoryFakeTest"/></lhs><lhs name\="com.example.Mockito.TD.Fake.BookService"><rhs name\="com.example.Mockito.TD.Fake.BookService"/></lhs><lhs name\="com.example.Mockito.TD.Fake.Book"><rhs name\="com.example.Mockito.TD.Fake.Book"/></lhs><lhs name\="com.example.Mockito.TD.Dummy.EmailService"><rhs name\="com.example.Mockito.TD.DummyTest.DummyEmailService"/></lhs><lhs name\="com.example.Mockito.TD.Dummy.BookRepository"><rhs name\="com.example.Mockito.TD.DummyTest.BookRepositoryDummyTest"/></lhs><lhs name\="com.example.Mockito.TD.Stub.BookService"><rhs name\="com.example.Mockito.TD.Stub.BookService"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayDeque"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayDeque"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.example.Mockito.TD.Spy.BookService"><rhs name\="com.example.Mockito.TD.Spy.BookService"/></lhs><lhs name\="com.example.Mockito.TD.Spy.Book"><rhs name\="com.example.Mockito.TD.Spy.Book"/></lhs><lhs name\="com.example.Mockito.TD.Dummy.Book"><rhs name\="com.example.Mockito.TD.Dummy.Book"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

@@ -1,0 +1,43 @@
+package Pratice_Programs;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class P153_SortMap_keys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> hm = new HashMap<>();
+		hm.put("Swapnil", 2);
+		hm.put("Maruti", 3);
+		hm.put("Limgude", 1);
+		
+//		hm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+		Map<String, Integer> tm = new TreeMap<>(hm);
+		// System.out.println(tm);
+
+//		tm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+
+		System.out.println("Sorted map:");
+		for (Map.Entry<String, Integer> entry : tm.entrySet()) {
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+	}
+
+}
+
+Map<String, Integer> unsortedMap = new HashMap<>();
+unsortedMap.put("D", 4);
+unsortedMap.put("A", 1);
+unsortedMap.put("B", 2);
+unsortedMap.put("C", 3);
+
+// Sorting the entries by keys
+Map<String, Integer> sortedMap = new TreeMap<>(unsortedMap);
+
+// Displaying the sorted map
+System.out.println("Sorted Map by Keys:");
+for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+	System.out.println(entry.getKey() + ": " + entry.getValue());
+}

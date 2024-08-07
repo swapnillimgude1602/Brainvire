@@ -1,0 +1,27 @@
+package Pratice_Programs;
+
+class TreeNode {
+	int data;
+	TreeNode left;
+	TreeNode right;
+
+	public TreeNode(int data) {
+		this.data = data;
+		this.left = null;
+		this.right = null;
+	}
+}
+
+public class P160_Count_LeafNodes {
+	private TreeNode root;
+
+	public P160_Count_LeafNodes() {
+		this.root = null;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

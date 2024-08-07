@@ -1,0 +1,7 @@
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=demoRedisCache
+
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+spring.data.redis.timeout=10000

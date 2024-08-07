@@ -1,0 +1,24 @@
+package Pratice_Programs;
+
+import java.util.LinkedList;
+
+public class P139_LL_to_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		LinkedList<Integer> list = new LinkedList<Integer>();
+		list.add(10);
+		list.add(11);
+		list.add(12);
+		list.add(17);
+
+		Integer arr[] = new Integer[list.size()];
+		list.toArray(arr);
+		for (Integer printArray : arr) {
+			System.out.println(printArray);
+		}
+
+	}
+
+}

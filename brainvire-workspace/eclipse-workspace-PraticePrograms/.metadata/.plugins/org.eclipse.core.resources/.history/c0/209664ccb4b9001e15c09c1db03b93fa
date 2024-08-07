@@ -1,0 +1,21 @@
+package Pratice_Programs;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class P108_Create_Write_FIle {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		File file = new File("Pratice.txt");
+		///home/swapnil_limgude/brainvire-workspace/eclipse-workspace-PraticePrograms/Pratical_Programs
+		String writingtofile = "Hello i am storing in filr";
+		FileWriter output = new FileWriter(file);
+		output.write(writingtofile);
+		System.out.println("Data is written to the file.");
+		output.close();
+
+	}
+
+}

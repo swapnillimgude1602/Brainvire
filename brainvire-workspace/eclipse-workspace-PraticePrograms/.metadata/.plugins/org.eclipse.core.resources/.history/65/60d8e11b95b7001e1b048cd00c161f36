@@ -1,0 +1,22 @@
+package Pratice_Programs;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+public class P153_SortMap_keys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, Integer> hm = new HashMap<String, Integer>();
+		hm.put("Swapnil", 1);
+		hm.put("Maruti", 2);
+		hm.put("Limgude", 3);
+		hm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+		TreeMap<String, Integer> tm = new TreeMap<String, Integer>(hm);
+		tm.forEach((v, k) -> System.out.println("Value: " + v + " : " + "Key: " + k));
+
+		
+
+	}
+
+}

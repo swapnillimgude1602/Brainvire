@@ -1,0 +1,17 @@
+package Pratice_Programs;
+
+public class P157_Preorder_treeTraversal {
+
+	 private static void preorderTraversal(TreeNode root) {
+	        if (root != null) {
+	            System.out.print(root.data + " ");
+	            preorderTraversal(root.left);
+	            preorderTraversal(root.right);
+	        }
+	    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

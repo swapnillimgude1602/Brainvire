@@ -1,0 +1,11 @@
+package com.student.demo;
+
+import java.util.List;
+
+public class Studentdao {
+	
+	public static List<Student> getStudents() {
+		
+	}
+
+}

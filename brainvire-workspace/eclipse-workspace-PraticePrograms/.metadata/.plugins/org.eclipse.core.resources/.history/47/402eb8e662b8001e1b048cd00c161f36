@@ -1,0 +1,16 @@
+package Pratice_Programs;
+
+public class P78_Lookup_enum_ {
+
+	public enum Languages {
+		JAVA, SCALA, PYTHON, MYSQL
+	}
+
+	public static void main(String[] args) {
+		String input_string = "Java";
+		System.out.println("The string is to lookup is: " + input_string);
+		Languages result = Languages.valueOf(input_string.toUpperCase());
+		System.out.println("\nThe result is: ");
+		System.out.println(result);
+	}
+}

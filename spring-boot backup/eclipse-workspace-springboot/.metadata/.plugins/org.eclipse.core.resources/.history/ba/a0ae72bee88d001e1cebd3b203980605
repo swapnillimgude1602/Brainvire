@@ -1,0 +1,39 @@
+package JunitMockito.com.demo.ArgumentMatcherTest;
+
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import JunitMockito.com.demo.ArgumentMatcher.User;
+import JunitMockito.com.demo.ArgumentMatcher.UserRepository;
+import JunitMockito.com.demo.ArgumentMatcher.UserService;
+	
+@ExtendWith(MockitoExtension.class)
+public class TestBehaviorVerification {
+
+	@InjectMocks
+	private UserService newService;
+
+	@Mock
+	private UserRepository newRepo;
+
+	// if same salary
+	@Test
+	public void testUpdateSalary() {
+		User user1 = new User(5, "swapnil", "pune", "123", 1000);
+		User user2 = new User(5, "swapnil", "pune", "123", 400);
+
+//		when(newRepo.findUserByUserId(5)).thenReturn(user1);
+		when(newRepo.findUserByUserId(any(Integer.class))).thenReturn(user1);
+
+		newService.updateSalary(5, 400);
+		verify(newRepo).save(user2);
+	}
+}
+	

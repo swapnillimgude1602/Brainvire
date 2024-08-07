@@ -1,0 +1,29 @@
+package com.example.demo.Service;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public class CustomerServiceImplementation implements UserDetailsService {
+	
+	@Autowired
+	private UserRepository repository;
+
+	public CustomerUserServiceImplementation(UserRepository repository) {
+		// TODO Auto-generated constructor stub
+		this.repository = repository;
+	}
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		User user = repository.findByEmail(username);
+		if (user == null) {
+			throw new UsernameNotFoundException("user not found with email");
+		}
+		List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
+		return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), authorities);
+	}
+
+}
+
+
+}

@@ -1,0 +1,13 @@
+package com.springboot.controller;
+
+	@Controller
+	@ResponseBody
+	public class demoController {
+		
+		@RequestMapping("/resp")
+		public String resp() {
+			return "hello its a response..!";
+			
+		}
+
+}

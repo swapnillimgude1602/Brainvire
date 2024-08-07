@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;pom.xml&apos; to &apos;springJDBC/src/main/java/com.springcore.springJDBC&apos;&#x0A;- Original project: &apos;spring-framework&apos;&#x0A;- Destination element: &apos;springJDBC/src/main/java/com.springcore.springJDBC&apos;&#x0A;- Original element: &apos;pom.xml&apos;" description="Copy file" destination="=springJDBC/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springcore.springJDBC" element1="pom.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1696857212893" units="0" version="1.0"/>
+</session>

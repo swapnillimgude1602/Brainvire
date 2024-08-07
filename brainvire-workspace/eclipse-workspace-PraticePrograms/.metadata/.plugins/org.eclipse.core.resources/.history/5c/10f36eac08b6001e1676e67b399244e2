@@ -1,0 +1,16 @@
+package Pratice_Programs;
+
+public class P119_CustomEXE {
+	
+	public class invalidAgeException extends Exception{
+		public invalidAgeException(String str) {
+			super(str);
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

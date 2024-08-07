@@ -1,0 +1,69 @@
+package Pratice_Programs;
+
+import Pratice_Programs.P135_LinkedList.Node;
+
+public class P166_AddEle_LinkedList {
+
+	Node head;
+	private int size;
+
+	public P166_AddEle_LinkedList() {
+		this.size = 0;
+	}
+
+	class Node {
+		String data;
+		Node next;
+
+		Node(String data) {
+			this.data = data;
+			this.next = null;
+			size++;
+		}
+	}
+
+	public void addFirstLoc(String data) {
+		Node newnode = new Node(data);
+		if (head == null) {
+			head = newnode;
+			return;
+		}
+		newnode.next = head;
+		head = newnode;
+	}
+
+	public void addLast(String data) {
+		Node newnode = new Node(data);
+		if (head == null) {
+			head = newnode;
+			return;
+		}
+
+		Node currNode = head;
+		while (currNode.next != null) {
+			currNode = currNode.next;
+		}
+		currNode.next = newnode;
+	}
+
+	public void printList() {
+		if (head == null) {
+			System.out.println("List is empty");
+			return;
+		}
+		Node currNode = head;
+		while (currNode != null) {
+			System.out.print(currNode.data + "-> ");
+			currNode = currNode.next;
+		}
+		System.out.println("Null");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		P135_LinkedList list = new P135_LinkedList();
+		list.addFirstLoc("swap");
+		list.addLast("lim");
+		list.printList();
+	}
+}

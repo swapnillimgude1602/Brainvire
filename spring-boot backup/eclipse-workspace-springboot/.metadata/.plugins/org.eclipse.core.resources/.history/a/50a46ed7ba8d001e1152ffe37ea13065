@@ -1,0 +1,23 @@
+package JunitMockito.com.demo.Spies;
+
+import JunitMockito.com.demo.ArgumentCaptor.UserRepository;
+
+public class UserService {
+
+	private UserRepository userRepository;
+
+	public UserService(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+
+	public User findUser(int userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public int getIncrementedSalary(User user, int increSal) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

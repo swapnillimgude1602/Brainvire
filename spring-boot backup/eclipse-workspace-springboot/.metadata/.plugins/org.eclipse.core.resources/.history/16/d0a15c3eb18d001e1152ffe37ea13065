@@ -1,0 +1,20 @@
+package JunitMockito.com.demo.spiesTest;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mockito;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import JunitMockito.com.demo.Spies.UserManager;
+import JunitMockito.com.demo.Spies.UserService;
+
+@ExtendWith(MockitoExtension.class)
+public class UserManagerTest {
+	
+	@Test
+	public void testMockitoSpy() {
+		UserService userService = Mockito.spy(UserService.class);
+		UserManager userManager  = new UserManager(userService);
+	}
+
+}

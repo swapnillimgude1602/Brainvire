@@ -1,0 +1,32 @@
+package Pratice_Programs;
+
+import java.util.ArrayList;
+
+public class P81_AL_sort_CustomOBJ {
+
+	private String customProperty;
+
+	public P81_AL_sort_CustomOBJ(String property) {
+		this.customProperty = property;
+	}
+
+	public String getCustomProperty() {
+		return this.customProperty;
+	}
+
+	public static void main(String[] args) {
+
+		ArrayList<P81_AL_sort_CustomOBJ> list = new ArrayList<>();
+		list.add(new P81_AL_sort_CustomOBJ("Z"));
+		list.add(new P81_AL_sort_CustomOBJ("A"));
+		list.add(new P81_AL_sort_CustomOBJ("B"));
+		list.add(new P81_AL_sort_CustomOBJ("X"));
+		list.add(new P81_AL_sort_CustomOBJ("Aa"));
+
+		list.sort((o1, o2) -> o1.getCustomProperty().compareTo(o2.getCustomProperty()));
+
+		for (P81_AL_sort_CustomOBJ obj : list) {
+			System.out.println(obj.getCustomProperty());
+		}
+	}
+}

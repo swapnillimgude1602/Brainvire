@@ -1,0 +1,13 @@
+package Pratice_Programs;
+
+import org.w3c.dom.Node;
+
+public class P135_LinkedList {
+	Node head;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

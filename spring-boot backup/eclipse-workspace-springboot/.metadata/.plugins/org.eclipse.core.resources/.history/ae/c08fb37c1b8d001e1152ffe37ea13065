@@ -1,0 +1,20 @@
+package JunitMockito.com.demo.ExceptionHandling;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class UserService {
+
+	private UserRepository userRepository;
+
+	public UserService(UserRepository userRepository) {
+		this.userRepository = userRepository;
+	}
+	
+	public int findAllUsers(){
+		List<User> allUser = userRepository.findAllUsers();
+		int totalSalary = 0;
+		totalSalary = totalSalary + 
+	}
+	
+}

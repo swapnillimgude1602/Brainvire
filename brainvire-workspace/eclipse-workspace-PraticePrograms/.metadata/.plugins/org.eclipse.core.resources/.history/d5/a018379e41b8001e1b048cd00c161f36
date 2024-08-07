@@ -1,0 +1,20 @@
+package Pratice_Programs;
+
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Arrays;
+
+public class P106_Inputstream_ByteArray {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		byte[] input = { 1,2,2,2,1,12,5};
+		InputStream stream = new ByteArrayInputStream(input);
+		System.out.println("Input Stream: " + stream.toString());
+		byte[] array = stream.readAllBytes();
+		System.out.println("Byte Array: " + Arrays.toString(array));
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Pratice_Programs;
+
+import java.util.*;
+
+public class SortMapByKeys {
+	public static void main(String[] args) {
+		// Sample map
+		Map<String, Integer> unsortedMap = new HashMap<>();
+		unsortedMap.put("D", 4);
+		unsortedMap.put("A", 1);
+		unsortedMap.put("B", 2);
+		unsortedMap.put("C", 3);
+
+		// Sorting the entries by keys
+		Map<String, Integer> sortedMap = new TreeMap<>(unsortedMap);
+
+		// Displaying the sorted map
+		System.out.println("Sorted Map by Keys:");
+		for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+	}
+}

@@ -1,0 +1,13 @@
+package Pratice_Programs;
+
+public class P38_Octal_Decimal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Ocatl to decimal
+				String Bin = "135";
+				int deci = Integer.parseInt(Bin, 2);
+				System.out.println(deci);
+	}
+
+}

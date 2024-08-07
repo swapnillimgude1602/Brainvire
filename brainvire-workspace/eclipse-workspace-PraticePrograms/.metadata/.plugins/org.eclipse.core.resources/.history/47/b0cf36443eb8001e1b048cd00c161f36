@@ -1,0 +1,21 @@
+package Pratice_Programs;
+
+public class P103_MethCall_argument_AnotherMethod {
+	public int add(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+
+	public void multiply(int num) {
+		int result = num * num;
+		System.out.println(result); // prints 576
+	}
+
+	public static void main(String[] args) {
+
+		P103_MethCall_argument_AnotherMethod obj = new P103_MethCall_argument_AnotherMethod();
+
+		obj.square(obj.add(15, 9));
+
+	}
+}

@@ -1,0 +1,10 @@
+package Pratice_Programs;
+
+public final class P120_ImmutableClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

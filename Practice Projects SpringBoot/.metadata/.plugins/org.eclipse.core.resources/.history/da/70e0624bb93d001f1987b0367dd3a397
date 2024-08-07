@@ -1,0 +1,8 @@
+package com.example.demo.Service.Auth;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class AuthServiceImpl implements AuthService{
+
+}

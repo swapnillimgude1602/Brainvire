@@ -1,0 +1,9 @@
+package com.example.demo.Service;
+
+import com.example.demo.Entity.Book;
+
+public interface BookService {
+	
+	Book addBook(Book book);
+
+}

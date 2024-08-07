@@ -1,0 +1,9 @@
+package JunitMockito.com.demo.ExceptionHandling;
+
+public class DatabaseReadException extends Exception {
+
+	public DatabaseReadException(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

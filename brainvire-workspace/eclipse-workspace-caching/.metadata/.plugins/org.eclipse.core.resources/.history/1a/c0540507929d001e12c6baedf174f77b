@@ -1,0 +1,14 @@
+package com.example.demo.Entity;
+
+import org.springframework.data.annotation.Id;
+public class Book {
+
+	@Id
+	private int bookId;
+	private String bookName;
+	private String bookCategory;
+	private String bookAuthor;
+	private String bookPublisher;
+	private String bookEdititon;
+	
+}

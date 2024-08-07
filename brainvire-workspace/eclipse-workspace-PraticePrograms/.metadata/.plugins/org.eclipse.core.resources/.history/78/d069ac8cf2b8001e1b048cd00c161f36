@@ -1,0 +1,20 @@
+package Pratice_Programs;
+
+class TreeNode {
+	int data;
+	TreeNode left, right;
+
+	public TreeNode(int item) {
+		data = item;
+		left = right = null;
+	}
+}
+
+public class P160_Count_LeafNode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package JunitMockito.com.demo.Spies;
+
+public class UserManager {
+	
+	private UserService userService;
+
+}

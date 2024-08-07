@@ -1,0 +1,16 @@
+package Pratice_Programs;
+
+public class P39_binary_octal_Conversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//first binary to decimal and then decimal to octal 
+		String binaryNum="1010";  
+		int decimal=Integer.parseInt(binaryNum,2);  
+		System.out.println(decimal);  
+		String octal = Integer.toOctalString(decimal);
+		System.out.println(octal);
+	}
+
+}

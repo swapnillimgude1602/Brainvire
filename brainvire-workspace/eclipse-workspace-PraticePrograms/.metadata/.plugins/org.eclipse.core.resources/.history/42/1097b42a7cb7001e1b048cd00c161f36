@@ -1,0 +1,10 @@
+package Pratice_Programs;
+
+public class P155_ArrayList_LambdaExp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

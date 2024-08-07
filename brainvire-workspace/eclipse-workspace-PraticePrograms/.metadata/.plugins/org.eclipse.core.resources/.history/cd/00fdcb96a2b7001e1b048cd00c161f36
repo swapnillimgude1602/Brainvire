@@ -1,0 +1,26 @@
+package Pratice_Programs;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class P153_SortMap_keys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> unsortedMap = new HashMap<>();
+		unsortedMap.put("Swap", 4);
+		unsortedMap.put("nil", 1);
+		unsortedMap.put("Lim", 2);
+		unsortedMap.put("gude", 3);
+
+		// Sorting the entries by keys
+		Map<String, Integer> sortedMap = new TreeMap<>(unsortedMap);
+
+		// Displaying the sorted map
+		System.out.println("Sorted Map by Keys:");
+		for (Map.Entry<String, Integer> entry : sortedMap.entrySet()) {
+			System.out.println(entry.getKey() + ": " + entry.getValue());
+		}
+	}
+}

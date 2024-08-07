@@ -1,0 +1,14 @@
+package Pratice_Programs;
+
+public class P39_Binary_Octal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String Bin = "1011";
+		int oct = Integer.parseInt(Bin, 8);
+		System.out.println(oct);
+
+	}
+
+}

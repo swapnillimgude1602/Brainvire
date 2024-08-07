@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  
+spring:
+  application:
+    name: API-GATEWAY
+    
+  cloud:
+    gateway:
+      routes:
+      - id: AUTHENTICATION-SERVICE
+        uri: lb://AUTHENTICATION-SERVICE
+        predicates:
+        - Path=/auth/**

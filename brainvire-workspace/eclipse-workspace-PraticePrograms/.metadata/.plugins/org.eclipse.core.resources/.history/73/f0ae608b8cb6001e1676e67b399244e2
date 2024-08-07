@@ -1,0 +1,17 @@
+package Pratice_Programs;
+
+import java.util.Scanner;
+
+public class P30_ArmstrongNo_2_intervals {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter start and end: ");
+		int start = sc.nextInt();
+		int end = sc.nextInt();
+		
+
+	}
+
+}

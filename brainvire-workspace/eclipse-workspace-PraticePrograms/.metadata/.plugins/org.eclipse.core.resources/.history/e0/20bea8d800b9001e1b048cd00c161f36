@@ -1,0 +1,10 @@
+package Pratice_Programs;
+
+public class P125_Firstword_Capital_Sentence {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

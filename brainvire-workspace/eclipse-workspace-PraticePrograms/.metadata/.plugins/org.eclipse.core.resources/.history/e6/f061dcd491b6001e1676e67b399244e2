@@ -1,0 +1,13 @@
+package Pratice_Programs;
+
+public class P37_Binary_decimal_vv {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String Bin = "1010";
+		int deci = Integer.parseInt(Bin, 2);
+		System.out.println(deci);
+	}
+
+}

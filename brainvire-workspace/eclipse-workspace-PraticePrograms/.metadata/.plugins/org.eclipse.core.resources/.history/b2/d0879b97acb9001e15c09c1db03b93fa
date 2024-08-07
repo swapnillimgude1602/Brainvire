@@ -1,0 +1,15 @@
+package Pratice_Programs;
+
+public class P97_QuickSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = { 3, 4, 9, 1, 10, 5 };
+
+		for (int sorted : arr) {
+			System.out.println("Array Sorted: " + sorted);
+		}
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package JunitMockito.com.demo.exceptionHandlingTest;
+
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import JunitMockito.com.demo.ExceptionHandling.UserRepository;
+import JunitMockito.com.demo.ExceptionHandling.UserService;
+
+public class testExceptionHandling {
+	
+	@InjectMocks
+	private UserService newService;
+
+	@Mock
+	private UserRepository newRepo;
+	
+	
+
+}

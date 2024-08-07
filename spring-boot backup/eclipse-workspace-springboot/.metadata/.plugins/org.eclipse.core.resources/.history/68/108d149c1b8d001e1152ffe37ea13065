@@ -1,0 +1,9 @@
+package JunitMockito.com.demo.ExceptionHandling;
+
+import java.util.List;
+
+public interface UserRepository {
+
+	List<User> findAllUsers();
+
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form
+<h2><marquee>Please select your favourite car:</marquee></h2>
+<br>
+<select name="Favourite car">
+	<option>BmW</option>
+	<option>Audi</option>
+	<option>Merci</option>
+	<option>Suzuki</option>
+	
+</select>
+&nbsp;&nbsp;
+<input type="submit" value="submit">
+
+</body>
+</html>

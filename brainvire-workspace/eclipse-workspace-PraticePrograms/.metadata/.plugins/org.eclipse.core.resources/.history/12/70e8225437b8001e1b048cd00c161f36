@@ -1,0 +1,12 @@
+package Pratice_Programs;
+
+public class P95_Primitive_Object {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 345;
+		double num2 = 12.2D;
+		
+	}
+
+}

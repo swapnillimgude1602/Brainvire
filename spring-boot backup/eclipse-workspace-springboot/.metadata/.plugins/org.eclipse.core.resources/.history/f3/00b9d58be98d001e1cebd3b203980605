@@ -1,0 +1,12 @@
+package JunitMockito.com.demo.ArgumentMatcher;
+
+public interface UserRepository {
+	
+	public void save(User user);
+	public User findUserByUserId(int userId);
+	public static User findUserByUserNameAndUserPassword(String userName, String userPassword) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

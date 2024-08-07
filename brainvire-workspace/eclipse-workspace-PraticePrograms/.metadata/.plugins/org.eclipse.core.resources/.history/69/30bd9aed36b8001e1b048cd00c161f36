@@ -1,0 +1,16 @@
+package Pratice_Programs;
+
+public class P94_Double_String {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double num1 = 4.76;
+	    double num2 = 786.56;
+	    
+	    String str1 = Double.toString(num1);
+	    String str2 = Double.toString(num2);
+
+
+	}
+
+}

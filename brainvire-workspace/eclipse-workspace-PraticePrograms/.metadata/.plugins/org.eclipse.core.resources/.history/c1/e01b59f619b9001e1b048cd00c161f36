@@ -1,0 +1,13 @@
+package Pratice_Programs;
+
+import java.io.File;
+
+public class P108_Create_Write_FIle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		File file = new File("Pratice.txt");
+
+	}
+
+}

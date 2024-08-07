@@ -1,0 +1,22 @@
+package Pratice_Programs;
+
+final class immutableClass {
+	final int phoneNumber;
+
+	public immutableClass(int phoneNumber) {
+		super();
+		this.phoneNumber = phoneNumber;
+	}
+
+	public int getPhoneNumber() {
+		return phoneNumber;
+	}
+}
+
+public class P120_ImmutableClass {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		immutableClass obj = new immutableClass(1234);
+	}
+
+}

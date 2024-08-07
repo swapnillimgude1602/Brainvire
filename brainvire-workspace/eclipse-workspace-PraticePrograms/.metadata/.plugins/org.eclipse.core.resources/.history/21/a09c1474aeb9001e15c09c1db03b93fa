@@ -1,0 +1,17 @@
+package Pratice_Programs;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class P73_Append_Text {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String path = System.getProperty(
+				"\"/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-PraticePrograms/Pratical_Programs/Pratice.txt");
+		String appendString = "I am 4th Line";
+
+
+	}
+
+}

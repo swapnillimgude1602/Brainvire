@@ -1,0 +1,23 @@
+package Pratice_Programs;
+
+public class P119_CustomEXE {
+	
+	public class invalidAgeException extends Exception{
+		public invalidAgeException(String str) {
+			super(str);
+		}
+	}
+
+	void validate(int age) throws invalidAgeException {
+		if(age>18) {
+			try {
+				throw new invalidAgeException("Not allowed");
+			}
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

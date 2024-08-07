@@ -1,0 +1,24 @@
+package Pratice_Programs;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class P70_Array_Set {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int arr[] = new int[5];
+		for(int i=0;i<arr.length;i++) {
+			arr[i] = sc.nextInt();
+		}
+		String atr[]= {"a","s"};
+ 		int arr1[] = {1,2,3,4};
+		Set<Integer> setList = new HashSet<>(Arrays.tol(arr1));
+		
+	}
+
+}

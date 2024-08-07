@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-springboot/JunitTesting-Mockito"/>
+			<item value="/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-springboot/Junit-Mockito"/>
+			<item value="/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-springboot/Junit_Mockito_springboot"/>
+			<item value="/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-springboot/Spring-Boot-Security-oldversion/pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.example.Junit4"/>
+			<item value="com.example"/>
+			<item value="JunitMockito.com.demo"/>
+			<item value="JunitMockito.com.example.junit"/>
+		</list>
+		<list key="groupId">
+			<item value="com.example"/>
+			<item value="Mockito"/>
+			<item value="JunitMockito"/>
+		</list>
+		<list key="artifactId">
+			<item value="Junit4"/>
+			<item value="MockitoTestingJunit4"/>
+			<item value="com.example"/>
+			<item value="com.demo"/>
+			<item value="com.example.junit"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/swapnil_limgude/Desktop/demo"/>
+			<item value="/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-selfProjects/demo"/>
+			<item value="/home/swapnil_limgude/brainvire-workspace/demo"/>
+			<item value="/home/swapnil_limgude/Desktop/shrikantdemo2/demo/demo"/>
+			<item value="/home/swapnil_limgude/Desktop/ShrikantDemo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

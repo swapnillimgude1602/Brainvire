@@ -1,0 +1,11 @@
+package Pratice_Programs;
+
+public class P126_String_char_Iterate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "helloGoodMorning";
+
+	}
+
+}

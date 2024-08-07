@@ -1,0 +1,11 @@
+package Pratice_Programs;
+
+public class P132_Check_3_BoolValues {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter 1st Boolean Value: ");
+
+	}
+
+}

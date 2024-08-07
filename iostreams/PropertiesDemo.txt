@@ -1,0 +1,6 @@
+#Laptop
+#Thu Aug 31 15:32:23 IST 2023
+Brand=Dell
+OS=Windows 10
+Model=Ideapad
+processor=It

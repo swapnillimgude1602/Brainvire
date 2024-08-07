@@ -1,0 +1,23 @@
+package Pratice_Programs;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+public class P165_Remove_LinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		LinkedList<String> list = new LinkedList<String>();
+		list.add("swap");
+		list.add("nil");
+		list.add("lim");
+		list.add("gude");
+		
+		System.out.println("Enter index to delete: "+i);
+		int i=sc.nextInt();
+		list.remove(i);
+
+	}
+
+}

@@ -1,0 +1,27 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.util.*, com.jsp.student.Student" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+    
+<%
+List <Student> data = new ArrayList<>();
+data.add(new Student("Swapnil","Limgude",true));
+pageContext.setAttribute("stud", data);
+%>    
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<c:forEach var="mystud" items="${stud}">
+
+${mystud.Student_firstName}
+
+</c:forEach>
+</body>
+</html>

@@ -1,0 +1,17 @@
+package com.jsp.student;
+
+public class Student {
+	 private String Student_firstName;
+	 private String Student_lastName;
+	 private boolean boldStudent;
+	 
+	public Student(String Student_firstName, String Student_lastName, boolean boldStudent) {
+		super();
+		this.Student_firstName = Student_firstName;
+		this.Student_lastName = Student_lastName;
+		this.boldStudent = boldStudent;
+	}
+
+	 
+}
+

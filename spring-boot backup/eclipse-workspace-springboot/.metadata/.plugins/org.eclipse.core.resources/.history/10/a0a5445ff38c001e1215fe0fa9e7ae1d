@@ -1,0 +1,39 @@
+package com.example.Junit4.BehaviorVerification;
+
+public class UserService {
+
+	private UserRepository userRepository;
+
+	public UserService(UserRepository userRepository) {
+		super();
+		this.userRepository = userRepository;
+	}
+
+	public void addUser(User user) {
+		userRepository.save(user); // mockito applies equals here
+	}
+
+	public void addUser(UserRequest userrequest) {
+		User user = new User();
+		user.setUserName(userrequest.getUserName());
+		user.setUserAddress(userrequest.getUserAddress());
+		user.setUserPassword(userrequest.getUserPassword());
+		user.setUserPayment(userrequest.getUserPayment());
+		userRepository.save(user); // mockito applies equals here
+	}
+
+	public void addUserr(UserRequest userRequest) {
+		if (userRequest.getUserPayment() >=500) {
+			User user = new User();
+			user.setUserName(userRequest.getUserName());
+			user.setUserAddress(userRequest.getUserAddress());
+			user.setUserPassword(userRequest.getUserPassword());
+			user.setUserPayment(userRequest.getUserPayment());
+			userRepository.save(user);
+			
+		}
+		else {return;}
+
+	}
+
+}

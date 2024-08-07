@@ -1,0 +1,26 @@
+package JunitMockito.com.demo.exceptionHandlingTest;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import JunitMockito.com.demo.ExceptionHandling.UserRepository;
+import JunitMockito.com.demo.ExceptionHandling.UserService;
+
+@ExtendWith(MockitoExtension.class)
+public class testExceptionHandling {
+	
+	@InjectMocks
+	private UserService newService;
+
+	@Mock
+	private UserRepository newRepo;
+	
+	@Test
+	public void testTotalSalary() {
+		
+	}
+
+}

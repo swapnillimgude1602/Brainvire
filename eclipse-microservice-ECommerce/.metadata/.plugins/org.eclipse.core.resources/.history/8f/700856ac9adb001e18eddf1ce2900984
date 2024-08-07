@@ -1,0 +1,9 @@
+package com.example.demo.Exception;
+
+public class UserException {
+
+	public UserException(String message) {
+		super(message);
+	}
+
+}

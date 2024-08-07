@@ -1,0 +1,13 @@
+package Pratice_Programs;
+
+import java.util.ArrayList;
+
+public class P146_RemoveDupl_Arraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list = new ArrayList<Integer>();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Pratice_Programs;
+
+public class P117_Enum_ {
+
+	enum standard{
+		FIRST,
+		SECOND,
+		THIRD
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

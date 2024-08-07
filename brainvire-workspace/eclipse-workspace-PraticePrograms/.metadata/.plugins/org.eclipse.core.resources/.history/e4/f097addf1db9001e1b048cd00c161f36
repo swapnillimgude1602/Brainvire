@@ -1,0 +1,19 @@
+package Pratice_Programs;
+
+import java.io.File;
+
+public class P114_RelativePath_2_AbsolutePath {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		File absolutePath1 = new File(
+				"/home/swapnil_limgude/brainvire-workspace/eclipse-workspace-PraticePrograms/Pratical_Programs");
+		File absolutePath2 = new File("/home/swapnil_limgude/Documents");
+
+		String relativePath = absolutePath1.substring(absolutePath2.length());
+		System.out.println("Absolute Path: " + relativePath);
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package Pratice_Programs;
+
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.util.Arrays;
+
+public class P106_Inputstream_ByteArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte[] input = {1, 2, 3, 4};
+	      InputStream stream = new ByteArrayInputStream(input);
+	      System.out.println("Input Stream: " + stream);
+
+	      // convert the input stream to byte array
+	      byte[] array = stream.readAllBytes();
+	      System.out.println("Byte Array: " + Arrays.toString(array));
+
+
+	}
+
+}

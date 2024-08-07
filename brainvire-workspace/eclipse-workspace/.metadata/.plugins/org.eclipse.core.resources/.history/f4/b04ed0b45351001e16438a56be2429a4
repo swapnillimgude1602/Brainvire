@@ -1,0 +1,20 @@
+package section14_Date_Time_API;
+
+import java.time.ZoneId;
+
+public class ZoneId_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ZoneId zone = ZoneId.systemDefault();
+		System.out.println(zone);
+		
+		ZoneId america = ZoneId.of("America/Los-Angles");
+		System.out.println(america);
+
+		
+
+	}
+
+}

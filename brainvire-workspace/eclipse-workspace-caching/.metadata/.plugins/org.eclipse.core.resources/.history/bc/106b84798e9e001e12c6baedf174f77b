@@ -1,0 +1,26 @@
+package com.example.demo.Configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class EhCacheConfig {
+	
+//	public javax.cache.CacheManager EhcacheManager() {
+//		CacheConfiguration<String, Book> cachecConfig = CacheConfigurationBuilder
+//				.newCacheConfigurationBuilder(String.class,Book.class,
+//	             ResourcePoolsBuilder.newResourcePoolsBuilder()
+//	             .offheap(10, MemoryUnit.MB)
+//	             .build())
+//				.withExpiry(ExpiryPolicyBuilder.timeToIdleExpiration(Duration.ofSeconds(10)))
+//				.build();
+//		
+//	     CachingProvider cachingProvider = Caching.getCachingProvider();
+//	     javax.cache.CacheManager cacheManager = cachingProvider.getCacheManager();
+//	     
+//	     javax.cache.configuration.Configuration<String, Book> configuration = Eh107Configuration.fromEhcacheCacheConfiguration(cachecConfig);
+//	        cacheManager.createCache("cacheStore", configuration);
+//	        return cacheManager;
+//
+//	}
+
+}

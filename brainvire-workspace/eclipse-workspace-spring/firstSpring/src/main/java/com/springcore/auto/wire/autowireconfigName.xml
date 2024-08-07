@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-cotext.xsd">
+
+		<bean class="com.springcore.auto.wire.Employee" name="employee" autowire="byName">
+		<property name="empId" value="011" />
+		<property name="empName" value="Swap" />
+		</bean>
+		
+		<bean class="com.springcore.auto.wire.Address" name="address">
+		<property name="city" value="Pune" />
+		<property name="State" value="Maharashtra" />
+		<property name="pinCode" value="41122" />
+		</bean>
+		
+</beans>

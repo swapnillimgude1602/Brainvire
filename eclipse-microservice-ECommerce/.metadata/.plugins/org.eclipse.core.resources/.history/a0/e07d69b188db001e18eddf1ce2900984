@@ -1,0 +1,8 @@
+package com.example.demo.Service;
+
+import com.example.demo.Repository.UserCredRepository;
+
+public class UserCredService {
+
+	private UserCredRepository credRepository;
+}

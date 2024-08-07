@@ -1,0 +1,14 @@
+127.0.0.1 - - [21/Sep/2023:17:17:14 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:17:14 +0530] "GET /Student_servlet/student.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:17:14 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:17:18 +0530] "GET /Student_servlet/Stud_servlet?fname=swapnil&lname=limgude HTTP/1.1" 404 784
+127.0.0.1 - - [21/Sep/2023:17:27:52 +0530] "GET / HTTP/1.1" 404 752
+127.0.0.1 - - [21/Sep/2023:17:49:41 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:49:42 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:49:42 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:17:49:46 +0530] "GET /Student_servlet/Stud_servlet?fname=swapnil&lname= HTTP/1.1" 404 784
+127.0.0.1 - - [21/Sep/2023:18:07:58 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:18:07:59 +0530] "GET /Servlet_mvc/MvcDemoServlet HTTP/1.1" 500 3423
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:18:07:59 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+127.0.0.1 - - [21/Sep/2023:18:08:59 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [21/Sep/2023:18:09:00 +0530] "GET /Servlet_mvc/MvcDemoServlet HTTP/1.1" 500 3422

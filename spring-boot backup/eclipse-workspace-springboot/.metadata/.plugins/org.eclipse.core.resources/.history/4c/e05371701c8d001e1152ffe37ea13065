@@ -1,0 +1,6 @@
+package JunitMockito.com.demo.ExceptionHandling;
+
+public class DatabaseReadException extends Exception {
+	
+
+}

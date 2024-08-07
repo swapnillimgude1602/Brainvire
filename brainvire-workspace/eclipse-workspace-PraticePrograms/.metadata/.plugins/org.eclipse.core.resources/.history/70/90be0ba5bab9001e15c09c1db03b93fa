@@ -1,0 +1,28 @@
+package Pratice_Programs;
+
+import java.util.Scanner;
+
+public class P47_MultiplyMatrix_Function {
+
+	public int[][] multiply(int matrix1[][], int matrix2[][], int r1, int c1, int c2) {
+		int mul[][] = new int[r1][c1];
+		for (int i = 0; i < r1; i++) {
+			for (int j = 0; j < c1; j++) {
+				for (int k = 0; k < c2; k++) {
+					mul[i][j] += matrix1[i][k] * matrix2[k][j];
+				}
+			}
+		}
+		return mul;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter row and column for 1st Matrix: ");
+		int r1 = sc.nextInt();
+		int c1 = sc.nextInt();
+
+	}
+
+}

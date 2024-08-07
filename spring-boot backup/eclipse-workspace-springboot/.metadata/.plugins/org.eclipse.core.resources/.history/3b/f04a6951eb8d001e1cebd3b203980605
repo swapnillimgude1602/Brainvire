@@ -1,0 +1,50 @@
+package JunitMockito.com.demo.ArgumentMatcherTest;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+import JunitMockito.com.demo.ArgumentMatcher.User;
+import JunitMockito.com.demo.ArgumentMatcher.UserRepository;
+import JunitMockito.com.demo.ArgumentMatcher.UserService;
+
+@ExtendWith(MockitoExtension.class)
+public class TestBehaviorVerification {
+
+	@InjectMocks
+	private UserService userService;
+
+	@Mock
+	private UserRepository userRepository;
+
+	// if same salary
+	@Test
+	public void testUpdateSalary() {
+		User user1 = new User(5, "swapnil", "pune", "123", 1000);
+		User user2 = new User(5, "swapnil", "pune", "123", 400);
+
+		// Type Argument Matchers
+//		when(newRepo.findUserByUserId(5)).thenReturn(user1);
+		when(userRepository.findUserByUserId(any(Integer.class))).thenReturn(user1);
+
+		userService.updateSalary(5, 400);
+		verify(userRepository).save(user2);
+	}
+
+	@Test
+	public void invalidUseOfArgumentMatchers() {
+		User user1 = new User(5, "swapnil", "pune", "swapnil", 1000);
+		when(userRepository.findUserByUserNameAndUserPassword("swapnil", "swapnil")).thenReturn(user1);
+		User actual = userService.getUserByUserNameAndUserPassword("swapnil", "swapnil");
+		System.out.println(actual.toString());
+		assertEquals("swapnil", actual);
+
+	}
+}

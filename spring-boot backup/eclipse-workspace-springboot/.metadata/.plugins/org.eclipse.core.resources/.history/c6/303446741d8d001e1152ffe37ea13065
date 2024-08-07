@@ -1,0 +1,36 @@
+package JunitMockito.com.demo.exceptionHandlingTest;
+
+import static org.mockito.Mockito.atLeast;
+import static org.mockito.Mockito.never;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.verifyNoInteractions;
+import static org.mockito.Mockito.verifyNoMoreInteractions;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InOrder;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.Mockito;
+
+import JunitMockito.com.demo.ExceptionHandling.UserRepository;
+import JunitMockito.com.demo.ExceptionHandling.UserRequest;
+import JunitMockito.com.demo.ExceptionHandling.UserService;
+import JunitMockito.com.demo.Stub.User;
+
+public class testExceptionHandling {
+	
+	@InjectMocks
+	private UserService newService;
+
+	@Mock
+	private UserRepository newRepo;
+
+	@Test
+	public void testAddUser() {
+
+		User userAdd = new User(1, "Swap", "Pune", "pass", 1000);
+		this.newService.addUser(userAdd);
+		verify(newRepo).save(userAdd);
+	}

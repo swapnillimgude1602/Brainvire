@@ -1,0 +1,13 @@
+package section14_Date_Time_API;
+
+import java.time.LocalDateTime;
+
+public class Local_DateTime_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime dt = LocalDateTime.now();
+
+	}
+
+}

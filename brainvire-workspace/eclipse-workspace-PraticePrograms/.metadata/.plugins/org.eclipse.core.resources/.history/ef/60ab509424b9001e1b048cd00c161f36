@@ -1,0 +1,30 @@
+package Pratice_Programs;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class P115_CountNoOf_Lines {
+
+	public static void main(String[] args) throws FileNotFoundException,IOException {
+		// TODO Auto-generated method stub
+		File file = new File("input.txt");
+
+	      // create an object of Scanner
+	      // associated with the file
+	      Scanner sc = new Scanner(file);
+
+	      // read each line and
+	      // count number of lines
+	      while(sc.hasNextLine()) {
+	        sc.nextLine();
+	        count++;
+	      }
+	      System.out.println("Total Number of Lines: " + count);
+
+	      // close scanner
+	      sc.close();
+	}
+
+}

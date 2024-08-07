@@ -1,0 +1,18 @@
+package Pratice_Programs;
+
+public class P91_Int_Double {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 76;
+		int b = 10;
+
+		double c = a;
+		double d = b;
+
+		System.out.println(c);
+		System.out.println(d);
+
+	}
+
+}
